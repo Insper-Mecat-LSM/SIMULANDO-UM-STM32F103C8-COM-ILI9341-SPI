@@ -70,10 +70,21 @@ Salve as modificações e compile o código, habilitando que o CubeIDE gere arqu
 
 Agora iremos simular o código no software Proteus Labcenter. Realize a montagem de acordo com a imagem abaixo:
 
+<img width="1213" height="773" alt="Image" src="https://github.com/user-attachments/assets/941df01f-3745-4466-bee7-2caff62544c1" />
+
 Após realizar a montagem acima, iremos adicionar o arquivo .HEX que foi gerado pelo o CubeIDE, para fazer isso basta clicar com o botão direito do mouse em cima do chip e clicar em **edit properties** e após isso em **OSC Frequency** escreva **8Mhz**.
 
 Continuando na mesma aba, no icone **Program File** iremos adicionar o arquivo em questão, ele foi gerado na pasta em que você salvou o projeto do cubeIDE, abra a pasta **debug** e escolha o arquivo com a extensão .HEX
 
+<img width="1455" height="883" alt="Image" src="https://github.com/user-attachments/assets/6ef134c8-4616-4588-a975-13a8a59ccb2c" />
+
 Feito isso rode a simulação no Proteus Labcenter e deverá aparecer de acordo com a imagem seguinte.
 
+<img width="1919" height="1032" alt="Image" src="https://github.com/user-attachments/assets/e655b38a-da1e-432c-9fa6-978e1ffc71bf" />
+
+# Conclusão:
+Projeto realizado e simulado, verifique os nossos outros tutoriais e caso tenha alguma duvida com relação a nossa documentação ou projeto entre em contato com o autor por via e-mail camposhugo029@gmail.com e bons projetos para você.
+
+## Bibliografia:
+https://www.hackster.io/theembeddedthings/embedded-graphics-display-stm32-and-ili9341-tft-integration-0551bb
 
