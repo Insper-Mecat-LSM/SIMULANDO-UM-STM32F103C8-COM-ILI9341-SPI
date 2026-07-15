@@ -21,7 +21,7 @@ Após abrir um novo projeto no CubeIDE, faça as configurações no CubeMX de ac
 
 <img width="1916" height="1025" alt="Image" src="https://github.com/user-attachments/assets/a901b428-26b1-4f84-b1ca-a1394ebaf8cc" />
 
-Realizando as configurações no CubeMX, volte para o CubeIDE e no arquivo **main.c** iremos escrever os primeiros textos. 
+Realizando as configurações no CubeMX, salve o arquivo e você será derecionado automaticamente para o CubeIDE e no arquivo **main.c** iremos escrever os primeiros textos. 
 
 Na seção **Privates Includes** escreva:
 
@@ -63,5 +63,17 @@ void loop() {
 ```
 
 <img width="1065" height="640" alt="Image" src="https://github.com/user-attachments/assets/e68ffa09-16da-48c4-85f1-ad74acf09028" />
+
+Salve as modificações e compile o código, habilitando que o CubeIDE gere arquivos **.HEX** após a compilação, iremos precisar desse arquivo para realizar a simulação.
+
+## Simulação no Proteus Labcenter:
+
+Agora iremos simular o código no software Proteus Labcenter. Realize a montagem de acordo com a imagem abaixo:
+
+Após realizar a montagem acima, iremos adicionar o arquivo .HEX que foi gerado pelo o CubeIDE, para fazer isso basta clicar com o botão direito do mouse em cima do chip e clicar em **edit properties** e após isso em **OSC Frequency** escreva **8Mhz**.
+
+Continuando na mesma aba, no icone **Program File** iremos adicionar o arquivo em questão, ele foi gerado na pasta em que você salvou o projeto do cubeIDE, abra a pasta **debug** e escolha o arquivo com a extensão .HEX
+
+Feito isso rode a simulação no Proteus Labcenter e deverá aparecer de acordo com a imagem seguinte.
 
 
